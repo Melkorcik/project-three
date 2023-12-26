@@ -1,0 +1,34 @@
+.list-title_{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    margin-inline: auto;
+    margin-top: 105px;
+    font-weight: bold;
+}
+.li-all-4:hover,.li-print-4:hover,.li-web-design-4:hover{
+    cursor:pointer;
+    color:rgb(138, 177, 78);
+}
+.container-motion-four{
+    position:relative;
+}
+.img-4-1,.img-4-2,.img-4-3,.img-4-4,.img-4-5,.img-4-6{
+    position: absolute;
+}
+.img-4-1,.img-4-4{
+    left:60px;
+}
+.img-4-2{
+    right:530px;
+}
+.img-4-3,.img-4-6{
+    right: 40px;
+}
+.img-4-4,.img-4-5,.img-4-6{
+    top:290px;
+}
+.img-4-5{
+    left:550px;
+}

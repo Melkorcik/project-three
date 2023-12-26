@@ -1,0 +1,64 @@
+.content-with-header-box{
+    position: relative;
+    height: 730px;
+    width: 1519px;
+    margin-top: -22px;
+    margin-left: -1px;
+}
+.button_Three:hover,.buttonOne:hover,.buttonTwo:hover{
+    cursor: pointer;
+}
+.back-btn:hover,.next-btn:hover{
+    cursor: pointer;
+}
+.li-1,.li-2,.li-3,.li-4,.li-5{
+    margin-left: 66px;
+    list-style-type: none;
+    font-weight: bold;
+    padding-bottom:23px;
+}
+.li-1:hover,.li-2:hover,.li-3:hover,.li-4:hover,.li-5:hover{
+    cursor:pointer;
+    transition: .5s linear;
+    color:rgb(133, 98, 98);
+}
+.img-hygge{
+    position: absolute;
+    top:29px;
+    left:1260px;
+}
+.mini-ul-1,.mini-ul-2,.mini-ul-3,.mini-ul-4,.mini-ul-5{
+    list-style-type: none;
+    line-height: 41px;
+    position: absolute;
+    top:46px;
+}
+.mini-ul-1{
+    left:103px;
+}
+.mini-ul-2{
+    left:220px;
+}
+.mini-ul-3{
+    left:339px;
+}
+.mini-ul-4{
+    left:477px;
+}
+.mini-ul-5{
+    left:592px;
+}
+.el-li-1,.el-li-2,.el-li-3,.el-li-4,.el-li-5{
+    margin-left:-40px;
+    border-bottom: .3px solid rgb(133, 133, 133);
+    color:rgb(173, 169, 169);
+    background-color:rgb(50, 50, 50);
+    width: 151px;
+    padding-left: 26px;
+    padding-right: 32px;
+}
+.el-li-1:hover,.el-li-2:hover,.el-li-3:hover,.el-li-4:hover,.el-li-5:hover{
+    transition: .5s linear;
+    color:white;
+    cursor: pointer;
+}

@@ -1,0 +1,89 @@
+.box-information-1,.box-information-2{
+    display: flex;
+    justify-content: space-between;
+    height: 230px;
+    border-bottom: 1px solid grey;
+    width:1200px;
+    margin-inline: auto;
+}
+.box-information-3{
+    display: flex;
+    justify-content: space-between;
+    width:1200px;
+    margin-inline: auto;
+    margin-top: 53px;
+}
+.content-information-links,.content-information-input,.content-information-words{
+    color:rgb(212, 206, 206);
+    margin-top: 46px;
+}
+.img-links{
+    margin-left: -9px;
+}
+.input-email{
+    height: 29px;
+    width: 230px;
+    background-color: rgba(28,28,28,0);
+    border:1px solid grey;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    padding-left: 12px;
+    color:white;
+}
+.btn-join{
+    width: 66px;
+    margin-left: -1px;
+    color:white;
+    font-weight: bold;
+    background-color: rgb(107, 211, 98);
+    border: 1px solid green;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.btn-join:hover{
+    cursor: pointer;
+}
+.word-one:hover,.word-three:hover,.word-four:hover,.word-six:hover,.twelve:hover,.word-five:hover,
+.thirteen:hover,.word-two:hover,.word-seven:hover,.eight:hover,.nine:hover,.eleven:hover,.ten:hover{
+    cursor: pointer;
+    color:rgb(98, 197, 98);
+}
+.word-one,.word-three,.word-four,.word-six,.twelve{
+    font-size: 12px;
+}
+.word-five{
+    font-size: 14.3px;
+}
+.thirteen{
+    font-size:21px;
+}
+.word-two,.nine,.eleven{
+    font-size: 26px;
+}
+.img-title-hygge{
+    height: auto;
+    width: auto;
+    margin-top: 26px;
+}
+.text-content-hygge{
+    font-size: 15px;
+    margin-top: 16px;
+    display: block;
+    width: 300px;
+    color:rgb(212, 206, 206);
+}
+.content-information-text-hygge{
+    line-height: 26px;
+}
+.email-text:hover{
+    color: rgb(98, 197, 98);
+    cursor:pointer;
+}
+.li-web-design:hover,.li-photography:hover,.li-graphic-design:hover,.li-manipulation:hover,.li-graphic-motion:hover{
+    cursor: pointer;
+    color:rgb(98, 197, 98);
+}
+h5:hover{
+    color: rgb(98, 197, 98);
+    cursor:pointer;
+}

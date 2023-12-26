@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ContentOne from './ContentWithHeader/Content_one';
+import ComponentTwo from './ComponentTwo/ComponentTwo';
+import ComponentThree from './ComponentThree/ComponentThree';
+import ComponentFour from './ComponentFour/ComponentFour';
+import ComponentFive from './ComponentFive/ComponentFive';
+import ComponentSix from './ComponentSix/ComponentSix';
+import GoogleMap from './ComponentSeven/GoogleMap';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container-part-one">
+          <ContentOne/>
+          <ComponentTwo/>
+          <ComponentThree/>
+          <ComponentFour/>
+      </div>
+      <div className="container-part-two">
+          <ComponentFive/>
+      </div>
+      <div className="container-part-three">
+          <ComponentSix/>
+          <GoogleMap/>
+          <Footer/>
+      </div>
     </div>
   );
 }

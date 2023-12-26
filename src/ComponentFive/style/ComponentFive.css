@@ -1,0 +1,21 @@
+.fast-string{
+    position: relative;
+    height: 900px;
+    width: 900px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+.title-component-six{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 900px;
+    text-align: center;
+    margin-top: 166px;
+}
+.container-fast-string{
+    position: absolute;
+    top:146px;
+    left:300px;
+    height: 66px;
+    width: 900px;
+}

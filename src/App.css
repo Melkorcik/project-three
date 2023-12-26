@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+.App{
+  position: relative;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-part-one,.container-part-three{
+  position: absolute;
+  height: 2000px;
+  width: 1519px;
+  background-color:white;
+  z-index: 4;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-part-two{
+  position: absolute;
+  z-index: 2;
+  top:3000px;
+  height: 900px;
+  width: 1519px;
+  background-image: url('./img/parallax2.jpg');
+  background-attachment: fixed;
+  background-position-x: center;
+  background-position-y: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-part-three{
+  top:3400px;
+  z-index: 3;
+  height: 1512px;
 }

@@ -1,0 +1,16 @@
+.container-seven{
+    width: 300px;
+    margin-top: 66px;
+    margin-inline: auto;
+    text-align: center;
+}
+.container-logo{
+    width: 560px;
+    height: 200px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+.box-logos,.box-logos-two{
+    display: flex;
+    gap:30px;
+}
